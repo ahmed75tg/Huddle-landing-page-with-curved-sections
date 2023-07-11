@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif;  Heading */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+header img {
+    width: 200px;
+}
+
+header a {
+    background-color: transparent;
+    border: 1px hsl(322, 100%, 66%) solid;
+    color: hsl(322, 100%, 66%);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 2px 0px hsl(322, 100%, 66%);
+    ;
+}
+
+header a:hover {
+    background-color: transparent !important;
+    color: hsl(321, 100%, 78%) !important;
+    border: 1px hsl(321, 100%, 78%) solid !important;
+}
+
+/* Section Start */
+
+.home {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.home h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif !important;
+    margin-bottom: 20px;
+    word-spacing: 3px;
+}
+
+.home p {
+    max-width: 460px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.home a {
+    margin-bottom: 70px;
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 20px 70px;
+    border-radius: 40px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.home img {
+    width: 1000px;
+    margin-bottom: 70px;
+}
+
+.rates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-bottom: 120px;
+}
+
+.rates img {
+    width: 30px;
+    align-self: flex-start;
+
+}
+
+.one {
+    position: relative;
+}
+
+.one img {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+}
+
+.two {
+    position: relative;
+}
+
+.two img {
+    position: absolute;
+    top: -25px;
+    left: 5px;
+}
+
+.rates div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rates h2,
+.rates p {
+    margin: 0;
+    padding: 0;
+}
+
+.rates h2 {
+    font-size: 60px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700;
+}
+
+.rates p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* Grow Section Start */
+
+.grow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    background: url(images/bg-section-bottom-desktop-1.svg), url(images/bg-section-top-desktop-2.svg);
+    background-size: 300vh 100%;
+    background-position: 0 100%, 0 0;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+
+.grow img {
+    width: 400px;
+}
+
+.grow .left h3 {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.grow .left p {
+    max-width: 330px;
+    font-size: 15px;
+}
+
+.grow .left {
+    margin-right: 200px;
+}
+
+/* Flowing Section Start */
+
+.Flowing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.Flowing img {
+    width: 400px;
+}
+
+.Flowing .flow-right h3 {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.Flowing .flow-right p {
+    max-width: 480px;
+    font-size: 15px;
+}
+
+.flow-right {
+    margin-left: 180px;
+}
+
+/* Users Section Start */
+
+.users {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    background: url(images/bg-section-bottom-desktop-1.svg), url(images/bg-section-top-desktop-2.svg);
+    background-size: cover;
+    background-position: 0 100%, 0 0;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    margin-top: 80px;
+}
+
+.users img {
+    width: 400px;
+}
+
+.users .users-left h3 {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.users .users-left p {
+    max-width: 400px;
+    font-size: 15px;
+}
+
+.users .users-left {
+    margin-right: 200px;
+}
+
+/* Community Section Start*/
+
+.community {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.community h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.community a {
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 20px 70px;
+    border-radius: 40px;
+    font-size: 1.1em;
+    color: white;
+    margin-top: 50px;
+}
+
+a:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+
+/* Footer Start */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    background: url(images/Untitled.png) no-repeat;
+    background-size: 230vh 300%;
+    background-position: 0 -800px;
+    height: 500px;
+    padding: 80px;
+}
+
+.footer img {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer h2,
+.footer p,
+.footer h3,
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-left p {
+    margin-bottom: 20px;
+}
+
+.foot-desc {
+    max-width: 300px;
+}
+
+.footer-left p svg {
+    margin-right: 10px;
+}
+
+.footer-left a {
+    font-size: 1.6em;
+    /* margin-left: 10px; */
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.social a:hover {
+    color: rgb(53, 103, 179) !important;
+    background-color: transparent !important;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-right p {
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.footer-right h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.footer-right input {
+    height: 37px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.footer-right button {
+    /* height: 30px; */
+    width: 100px;
+    margin-left: 20px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer button:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+
+/* Media Start */
+
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header img {
+        width: 130px;
+    }
+
+    header a {
+        border-radius: 20px;
+        padding: 5px 15px;
+        box-shadow: 0px 0px 2px 0px hsl(322, 100%, 66%);
+        font-size: 15px;
+    }
+
+    /* Home Section */
+
+
+    .home h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        word-spacing: 0;
+        text-align: center;
+    }
+
+    .home a {
+        padding: 15px 50px;
+    }
+
+    .home img {
+        width: 300px;
+        margin-bottom: 100px;
+    }
+
+    /* Rates */
+
+    .rates {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 70%;
+        margin-bottom: 120px;
+    }
+
+    .rates img {
+        width: 30px;
+        align-self: flex-start;
+    }
+
+    .one {
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    .one img {
+        position: absolute;
+        top: -25px;
+        left: 50px;
+    }
+
+    .two {
+        position: relative;
+    }
+
+    .two img {
+        position: absolute;
+        top: -25px;
+        left: 40px;
+    }
+
+    /* Grow Section Start */
+
+    .grow {
+        flex-direction: column-reverse;
+        padding: 20px;
+        background: url(images/bg-section-bottom-mobile-1.svg), url(images/bg-section-top-desktop-1.svg);
+    }
+
+    .grow img {
+        width: 300px;
+    }
+
+    .grow .left {
+        margin-right: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    /* Flowing Section Start */
+
+    .Flowing {
+        flex-direction: column;
+    }
+
+    .Flowing img {
+        width: 300px;
+    }
+
+    .Flowing .flow-right h3 {
+        font-size: 1.5em;
+    }
+
+    .flow-right {
+        margin-left: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+
+    /* Users Section Start */
+
+    .users {
+        flex-direction: column-reverse;
+        padding: 20px;
+        background: url(images/bg-section-top-mobile-2.svg), url(images/bg-section-bottom-mobile-2.svg);
+    }
+
+    .users img {
+        width: 300px;
+    }
+
+    .users .users-left h3 {
+        font-size: 1.5em;
+    }
+
+    .users .users-left p {
+        max-width: 400px;
+        font-size: 15px;
+    }
+
+    .users .users-left {
+        margin-right: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    /* Community Section Start*/
+
+    .community {
+        text-align: center;
+    }
+
+    .community h2 {
+        font-size: 25px;
+    }
+
+    .community a {
+        padding: 15px 50px;
+        border-radius: 40px;
+        font-size: 1.1em;
+        color: white;
+        margin-top: 50px;
+    }
+
+    a:hover {
+        background-color: hsl(321, 100%, 78%);
+    }
+
+    /* Footer Start */
+
+.footer {
+    flex-direction: column-reverse;
+    background: url(images/bg-footer-top-mobile.svg) no-repeat;
+    background-size: 500vh 300%;
+    background-position: -670px 0px;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer img {
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+
+.footer-right button {
+    /* height: 30px; */
+    width: 100px;
+    margin-left: 150px;
+    align-self: flex-end;
+}
+
+.footer button:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+}
